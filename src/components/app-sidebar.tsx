@@ -1,5 +1,5 @@
 import * as React from "react"
-import oberlinLogo from "../assets/oberlin-logo.svg"
+
 import { Link } from "react-router"
 import {
   IconCamera,
@@ -11,7 +11,7 @@ import {
   IconFileWord,
   IconFolder,
   IconHelp,
-  IconInnerShadowTop,
+
   IconListDetails,
   IconReport,
   IconSearch,
