@@ -1,9 +1,16 @@
+import { Routes, Route } from "react-router";
+import Dashboard from "./components/Dashboard/Dashboard";
+
 export function App() {
-  return (
-    <div className="flex items-center justify-center min-h-screen">
-      <div className="font-medium">Hello World</div>
-    </div>
-  )
+    return (
+        <>
+            <Dashboard />
+
+            <Routes>
+                <Route path="/dashboard" element={<Dashboard />} />
+            </Routes>
+        </>
+    );
 }
 
-export default App
+export default App;
