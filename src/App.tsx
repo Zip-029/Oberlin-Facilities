@@ -18,7 +18,6 @@ export function App() {
           <Route path="/upload" element={<UploadZone />} />
           <Route path="/dashboard" element={<AnalyticsDashboard />} />
         </Route>
-        {/* Catch-all */}
         <Route path="*" element={<Navigate to="/upload" replace />} />
       </Routes>
     </WorkOrderProvider>
